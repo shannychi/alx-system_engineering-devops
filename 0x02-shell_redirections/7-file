@@ -1,2 +1,6 @@
 #!/bin/bash
-touch -- "$(cat << 'Best School' \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) Best School)"
+xargs -d'\n' touch -- << '.'
+
+\*\\'"Best School"\'\\*$\?\*\*\*\*\*:)
+
+.
